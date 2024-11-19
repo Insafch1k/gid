@@ -1,0 +1,93 @@
+.home {
+	margin: 0;
+}
+.background-container {
+	position: fixed;
+	background-color: #657052; // Зеленый фон
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.image-container {
+	background-image: url("https://celes.club/uploads/posts/2022-05/1651813832_63-celes-club-p-respublika-tatarstan-priroda-krasivo-foto-67.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: fixed;
+	width: 1400px; // Ширина контейнера с изображением
+	height: 650px; // Высота контейнера с изображением
+	border-radius: 50px; // Скругление углов
+	top: 41px;
+	left: 58px;
+}
+h1 {
+	position: fixed;
+	width: 961px;
+	height: 295px;
+	left: calc(50% - 961px / 2 + 0.5px);
+	top: 130px;
+
+	font-family: "Monotype Corsiva", cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 150px;
+	top: 20px;
+	margin-left: 15%;
+	color: #32362c;
+
+	text-shadow: 0px 6px 15px rgba(0, 0, 0, 0.35);
+}
+p {
+	position: absolute;
+	width: 350px;
+	height: 80px;
+	left: calc(50% - 350px / 2);
+	top: 577px;
+}
+.perehod {
+	border-radius: 5px;
+	color: #32362c;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* Rectangle 1 */
+	width: 180px;
+	height: 45px;
+	left: calc(50% - 350px / 2);
+	top: 577px;
+	margin-top: 45px;
+	background: rgba(217, 217, 217, 0.22);
+	backdrop-filter: blur(4.3px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 0px 50px 50px 0px;
+	border: 4px solid rgba(0, 0, 0, 0.52);
+}
+
+.button-text {
+	margin-right: 8px;
+	margin-bottom: 5px;
+	font-size: 21px;
+	font-family: "Nunito Sans";
+	color: #32362c;
+}
+
+.pause-button {
+	font-size: 12px;
+	color: #616c22;
+	background-color: #f0f8c8;
+	padding: 3px;
+	border-radius: 50%;
+	border: 2px solid #f0f8c8;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: self-end;
+	justify-content: center;
+}
